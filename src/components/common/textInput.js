@@ -30,7 +30,7 @@ var Input = React.createClass({
                         placeholder={this.props.placeholder}
                         ref={this.props.name}
                         onChange={this.props.onChange}
-                        value={this.props.author.firstName}/>
+                        value={this.props.value}/>
                     <div className="input">{this.props.error}</div>
                 </div>
             </div>
